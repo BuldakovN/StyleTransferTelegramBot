@@ -25,8 +25,6 @@ def sendimage1():
     # возвращает изображение
     output_img_io = io.BytesIO()
     output_image.save(output_img_io, 'PNG')
-    with open('new_output.png', 'wb') as f:
-        output_image.save(f)
     output_img_io.seek(0)
     return flask.send_file(output_img_io, mimetype='image')
 
