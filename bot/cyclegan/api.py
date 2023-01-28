@@ -1,5 +1,5 @@
 import flask
-from model import CycleNet, pil_to_tensor
+from .model import CycleNet, pil_to_tensor
 import os, io
 import torch
 from PIL import Image
@@ -36,6 +36,10 @@ def sendimage():
     img_io.seek(0)
     return flask.send_file(img_io, mimetype='image')
 
-if __name__ == '__main__':
+
+def run():
     print('Start API')
     app.run(host='0.0.0.0', port='1707', debug=True)
+
+if __name__ == '__main__':
+    run()
