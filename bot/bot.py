@@ -9,7 +9,7 @@ cur_dir = os.path.dirname(os.path.realpath(__file__))
 with open(cur_dir+'/config.json', 'r', encoding='utf-8') as f:
     CONFIG = json.load(f)
 with open(cur_dir+'/TOKEN', 'r') as f:
-    TOKEN = f.read().a.replace('\n', '')
+    TOKEN = f.read().replace('\n', '')
 
 # Initialize bot and dispatcher
 bot = Bot(token=TOKEN)
