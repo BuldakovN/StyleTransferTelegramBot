@@ -1,17 +1,15 @@
 from aiogram import Bot, Dispatcher, executor, types
 from aiogram.types.message import ContentType
 import json
-import torch
-import base64, io, os
+import io, os
 from PIL import Image
 from requests import post
 
 cur_dir = os.path.dirname(os.path.realpath(__file__))
 with open(cur_dir+'/config.json', 'r', encoding='utf-8') as f:
     CONFIG = json.load(f)
-#API_TOKEN = config['token']
 with open(cur_dir+'/TOKEN', 'r') as f:
-    TOKEN = f.read()
+    TOKEN = f.read().a.replace('\n', '')
 
 # Initialize bot and dispatcher
 bot = Bot(token=TOKEN)
