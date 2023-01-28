@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+
+  cyclegan:
+    build: cyclegan/
+    ports:
+      - 1707:1707
+  
+  nsa:
+    build: nsa/
+    ports:
+      - 1337:1337
+  
+  msg:
+    build: msg/
+    ports:
+      - 1202:1202
