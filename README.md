@@ -102,3 +102,20 @@ GitHub: [Multi-style Generative Network](http://computervisionrutgers.github.io/
     /nsa2 — использовать Neural-Style Algoritm для переноса стиля c любого изображения (пока недоступно)"
 
 К сожалению, бот пока не поддерживает получение сразу двух изображений, из-за чего недоступны переносы пользовательских стилей. Кроме того, ввиду очень требовательных вычислений для **Neural-Style algorithm**, его рекомендуется использовать только на машинах, поддерживающих GPU.
+
+## Пример работы бота
+Начало работы
+
+<img src="assets/bot_start.jpg" title="MSG-Network" height=300/>
+
+Работа с CycleGAN
+
+<img src="assets/bot_cyclegan.jpg" title="MSG-Network" height=300/>
+
+Работа с MSG
+
+<img src="assets/bot_msg.jpg" title="MSG-Network" height=300/>
+
+Работа с NSA (недоступно в связи с тем, что на ВМ нет GPU)
+
+<img src="assets/bot_nsa.jpg" title="MSG-Network" height=300/>
