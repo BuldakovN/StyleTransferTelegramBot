@@ -77,7 +77,7 @@ GitHub: [Multi-style Generative Network](http://computervisionrutgers.github.io/
 
 <img src="https://leonardo.osnova.io/c7836d21-434f-532d-b6f0-69cc96bbf5d8/-/preview/700/-/format/webp/" title="MSG-Network"/>
 
-Данная сеть может обучаться не на одном стиле, как CycleGAN, а сразу на несколько. Модель, представленная в боте, обучена на 21 стиле.
+Данная сеть может обучаться не на одном стиле, как CycleGAN, а сразу на нескольких. Модель, представленная в боте, обучена на 21 стиле.
 
 ### Пример
 <img src="assets/cat.jpg" title="До" height=300/><img src="assets/cat_msg.jpg" title="После" height=300/>
