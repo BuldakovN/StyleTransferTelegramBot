@@ -106,16 +106,16 @@ GitHub: [Multi-style Generative Network](http://computervisionrutgers.github.io/
 ## Пример работы бота
 Начало работы
 
-<img src="assets/bot_start.jpg" title="MSG-Network" height=300/>
+<img src="assets/bot_start.jpg" title="MSG-Network" width=500/>
 
 Работа с CycleGAN
 
-<img src="assets/bot_cyclegan.jpg" title="MSG-Network" height=300/>
+<img src="assets/bot_cyclegan.jpg" title="MSG-Network" width=500/>
 
 Работа с MSG
 
-<img src="assets/bot_msg.jpg" title="MSG-Network" height=300/>
+<img src="assets/bot_msg.jpg" title="MSG-Network" width=500/>
 
 Работа с NSA (недоступно в связи с тем, что на ВМ нет GPU)
 
-<img src="assets/bot_nsa.jpg" title="MSG-Network" height=300/>
+<img src="assets/bot_nsa.jpg" title="MSG-Network" width=500/>
